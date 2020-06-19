@@ -1,0 +1,9 @@
+.env -> 
+./config/global.js, -> 
+./helpers/mysql.js -> 
+./helpers/index.js ->
+./model/book.js -> 
+./controlers/book -> 
+./route/book.js -> 
+./route/index -> 
+app.js

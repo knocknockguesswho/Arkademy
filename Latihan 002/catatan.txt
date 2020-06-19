@@ -1,0 +1,20 @@
+ALGORITMA
+
+1. meningkatkan kemampuan logika berfikir
+2. meningkatkan kemampuan memecahkan masalah atau tujuan tertentu secara terstruktur dan terurut.
+3. meningkatkan kreatifitas pemrograman
+4. optimasi block code pemrograman, menjadi lebih singkat.
+
+
+
+Caranya menggunakan:
+1. pseudocode (jika bukan a, maka b)
+2. flowchart 
+    -oval = harus untuk mulai dan selesai
+    -jajar genjang = input dan output data
+    -persegi panjang = proses
+    -MULAI, input, proses, output, SELESAI.
+        #buat input menjadi mudah diproses
+        #apakah butuh kondisi tertentu untuk menghasilkan output
+        #lakukan proses untuk input tersebut dengan kondisi yg diperlukan
+        #output mau bentuk yg seperti apa? tergantung dari siapa yg membutuhkan output tsb.

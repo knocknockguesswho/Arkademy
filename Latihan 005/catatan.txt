@@ -1,0 +1,4 @@
+//install express, mysql, nodemon, body-parser, dotenv, body-parser, morgan. 
+//install multer for uploading.
+//use request body for search(syntax: WHERE ?), sort(syntax: ORDER BY created_at), & pagination(syntax: LIMIT OFFSET [5 data/page]).
+

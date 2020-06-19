@@ -1,0 +1,42 @@
+NODE JS FULLSTACK
+
+1.Node JS dijalankan di luar browser scr Asynchronous dgn JRE(Javascript Runtime Environment)
+2.studi kasusnya bisa dilihat dari penggunaan REACT pada bagian front-end development
+3.REACT sudah membuat management file atau Package Management untuk front end/ reuseable 'library'
+4.node js tidak punya window dan dom karena berjalan di luar browser
+5.bentuknya adalah module yang scopenya local atau private
+6.implementasinya bisa dilihat pada file yg saling berkaitan dengan beberapa syarat tertentu. antara lain export dan import.
+7.node JS dibuat dengan C++
+8.membuat RESTful(REpresentational State Transfer) API dengan bantuan express.
+9.bekerja ketika ada perintah atau event-driven & non blocking I/O Karena prosesnya single thread.
+10.menggunakan mekanisme CORS untuk membuat daftar REST-client yg akan menggunakan HTTP Request ke REST-server. BUKAN ATURAN!
+11.Untuk aturan masuk bisa menggunakan oAuth dll.
+12.Management folder, src, helper dan config. Lalu membuat file .env untuk connection ke mysql.
+
+
+
+
+
+
+question
+1.bagaimana bisa berjalan di luar browser? (TERJAWAB: )
+2.bagaimana bentuk management file sehingga masing2 bisa saling berkomunikasi? ***PALING PENTING***
+3.penggunaan MySql pada node untuk back-end dev?
+4.penggunaan MonggoDB untuk back-end dev?
+5.mana yang lebih baik MySQL atau MonggoDB?
+6.data validation file?
+7.authentication & authorization?
+8.deployment?
+9.jika dibuat dengan menggunakan c++, lalu bagaimana memory alokasinya? (TERJAWAB: mempunyai v8 engine sbg auto compiler.)
+10.req dan res? detailnya bagaimana?
+11.dependencies untuk node-module?
+12.Database design?
+
+
+
+
+
+ALGORITMA PEMBUATAN 'app.js' dari awal hingga management file sperti src, helper, config dll.
+
+1.install dan import express, mysql dan nodemon.
+2. ...

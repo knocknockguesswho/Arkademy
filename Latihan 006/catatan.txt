@@ -1,0 +1,48 @@
+***Register***
+-create register function on auth model
+-make a result to send to request on controller
+-create routes for register on different file
+-use register router in index routes.
+-create auth folder at POSTMAN
+-create new request for register on POSTMAN
+-encrypt with secret key that has been encrypted by bcrypt.genSaltSync(ROUND_SECRET)
+-after encrypt, send to model param to the next task
+-delete password on response when success
+-INSERT all of inputed data INTO database
+
+
+
+***Login***
+-create login function on auth model
+-make a result to send to request on controller
+-create routes for login on same file with register
+-use login router in index routes
+-create new request for login on POSTMAN
+-make sure hashed password on database is the password that users has input on body. (compareSync)
+-if the password match with database password data, give access to REST API with true response. remember to delete password on window response.
+-if wrong, send the false response
+***JWT***
+-after client logged in, give the token(jwt) to use API. give a response only show the token to input!
+-jwt will expire. give jwt expired response as message
+-refresh token after use the method on middleware. at logged in condition
+-standard for authentication: server need to decides which authentication mechanism that users will use to accessing API. Choose one. (e.g 'Bearer Auth' or 'No Auth') 
+-users with token are allowed to use all request method.
+-except for 'get' method, another methods are only allowing admin with role=1 to access it. such as post the books data to database and remove them. below, are the role list.
+
+Role:
+1 = admin
+2 = member
+3 = reader
+
+note for the role: 
+-admin can do everything. 
+-member can see all the books, read the available book and also can borrow the book for 2 weeks.
+-reader as a non_member can only see all the books on the list and read if available.
+
+
+1.mengidentifikasi masalah
+2.analisa semua pilihan untuk diputuskan
+3.menimbang konsekuensi dr smua kputusan
+4.mengembangkan & menambah pilihan
+5.menganalisis pilihan yg sdh ditentukan
+6.putuskan

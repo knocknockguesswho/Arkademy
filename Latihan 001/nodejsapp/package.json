@@ -1,0 +1,15 @@
+{
+  "name": "introduction-lesson",
+  "version": "1.0.0",
+  "description": "any",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/knocknockguesswho/"
+  },
+  "author": "faris",
+  "license": "ISC"
+}

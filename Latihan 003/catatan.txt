@@ -1,0 +1,6 @@
+Pembahasan sumission algoritma dan flowchart
+
+1. pada flowchart, kalau bisa dipisah, jangan terlalu banyak kalimat.
+2. jangan sampai pada satu flowchart container itu diisi oleh banyak tugas, karena akan mempersulit debuggin jika ada error.
+3. untuk membuat variabel kosong, sebaiknya diletakkan di awal bersama dengan variabel yg sudah diisi.
+4. untuk merealisasikan flowchart, sebaiknya langsung buatkan function agar reuseable.
